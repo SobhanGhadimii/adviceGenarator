@@ -3,12 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .card {
   margin-top: 270px;
   padding: 16px;
-  width: 200px;
+  width: 90%;
+  max-width: 600px;
   height: auto;
   background-color: hsl(217, 19%, 38%);
   border-radius: 13px;
@@ -16,7 +18,45 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 20vh;
 }
 
 .advice_id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+  color: hsl(150, 100%, 66%);
+  margin-top: 10px;
+}
+
+.card_text {
+  color: hsl(193, 38%, 86%);
+  margin-top: 25px;
+  flex-wrap: wrap;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 22px;
+}
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+.button {
+  background-color: hsl(150, 100%, 66%);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 207px;
+  cursor: pointer;
 }
