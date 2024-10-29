@@ -1,0 +1,22 @@
+.main {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 270px;
+  padding: 16px;
+  width: 200px;
+  height: auto;
+  background-color: hsl(217, 19%, 38%);
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.advice_id {
+}
