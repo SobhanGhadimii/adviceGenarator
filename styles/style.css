@@ -7,18 +7,19 @@
 }
 
 .card {
-  margin-top: 270px;
+  margin-top: 50px;
   padding: 16px;
-  width: 90%;
-  max-width: 600px;
+  width: 80%;
+  max-width: 300px;
   height: auto;
-  background-color: hsl(217, 19%, 38%);
+  background-color: hsl(210, 2%, 43%);
   border-radius: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   min-height: 20vh;
+  position: relative;
 }
 
 .advice_id {
@@ -43,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+
   margin: 20px;
   margin-bottom: 40px;
 }
@@ -54,9 +55,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 16px;
   border-radius: 50%;
   position: absolute;
-  margin-top: 207px;
+  top: 85%;
   cursor: pointer;
+}
+.button:hover {
+  filter: drop-shadow(0 0 10px hsl(150, 100%, 66%));
 }

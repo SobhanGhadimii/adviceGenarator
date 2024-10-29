@@ -19,15 +19,21 @@
   </head>
   <body class="main">
     <div class="card">
-      <div class="advice_id">advice id</div>
-      <div class="card_text">asfdasfsfasf</div>
+      <div class="advice_id"></div>
+      <div class="card_text">
+        <pre id="output"></pre>
+      </div>
       <div class="design">
-        <img src="images\pattern-divider-desktop.svg" alt="button image" />
+        <img
+          src="images\pattern-divider-desktop.svg"
+          alt="button image"
+          style="width: 100%"
+        />
       </div>
       <div class="button">
-        <img src="images/icon-dice.svg" />
+        <img src="images/icon-dice.svg" onclick="fetchData()" />
       </div>
     </div>
   </body>
-  <script></script>
+  <script src="js/main.js"></script>
 </html>
