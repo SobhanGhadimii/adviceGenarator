@@ -16,6 +16,10 @@ function fetchData(e) {
       const advice = slip.advice;
 
       console.log(`id = ${id} and advice is: "${advice}"`);
+      const newID = id;
+      document.getElementById("newid").innerText = newID;
+      const newAdvice = advice;
+      document.getElementById("newAdvice").innerText = newAdvice;
     })
     .catch((error) => {
       console.error("there was an error here:", error);
